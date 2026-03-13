@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-2 gap-4 text-base font-medium sm:grid-cols-4">
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[#E9675E] px-5 text-white transition-colors hover:bg-[#D4574E] dark:bg-[#E9675E] dark:hover:bg-[#D4574E]"
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-salmon px-5 text-white transition-colors hover:bg-salmon-hover"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
