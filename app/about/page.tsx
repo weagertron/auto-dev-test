@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -22,12 +23,12 @@ export default function AboutPage() {
             do. Stay tuned for more updates about our company and team.
           </p>
         </div>
-        <a
+        <Link
           className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
           href="/"
         >
           Back to Home
-        </a>
+        </Link>
       </main>
     </div>
   );
